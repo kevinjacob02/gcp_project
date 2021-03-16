@@ -33,7 +33,7 @@ def say_hello():
 
     verified_email, verified_id = user()
 
-    page = render_template('index.html',
+    page = render_template('tictactoe.html',
         email=user_email,
         id=user_id,
         verified_email=verified_email,
